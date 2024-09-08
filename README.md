@@ -69,5 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - **Email**: esaputra168@gmail.com
-- **GitHub**: [yourusername](https://github.com/egasa21)
-- **LinkedIn**: [yourprofile](https://www.linkedin.com/in/ega-saputra-83736a179/)
+- **GitHub**: [egasa21](https://github.com/egasa21)
+- **LinkedIn**: [Ega Saputra](https://www.linkedin.com/in/ega-saputra-83736a179/)
