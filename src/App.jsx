@@ -1,3 +1,4 @@
+import { Hero } from './pages/hero/Hero'
 import { Layout } from './pages/layouts/Layout'
 
 function App() {
@@ -5,8 +6,7 @@ function App() {
   return (
     <Layout>
       <>
-        
-      
+        <Hero />
       </>
     </Layout>
   )
