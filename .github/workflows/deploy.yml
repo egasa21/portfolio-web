@@ -20,7 +20,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         run: npm run build
@@ -29,23 +29,23 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./build  # Change this to 'build' instead of 'dist'
 
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: .github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master'  # Use 'github.ref' correctly
 
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./build  # Ensure this matches the directory used in the build step
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build  # Ensure this matches the directory used in the build step
