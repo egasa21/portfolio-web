@@ -34,10 +34,10 @@ export const Header = () => {
         <header className="bg-white shadow-sm sticky top-0 z-50">
                 <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                     <div className="flex lg:flex-1">
-                        <Link href="/" className="-m-1.5 p-1.5">
+                        <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Egg Dev</span>
                             <img alt="" src={eggLogo} className="h-8 w-auto" />
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex lg:hidden">
                         <button
@@ -50,18 +50,18 @@ export const Header = () => {
                         </button>
                     </div>
                     <PopoverGroup className="mx-auto hidden lg:flex lg:gap-x-12">
-                        <Link href="/" className="text-base font-normal leading-6 text-black">
+                        <a href="/" className="text-base font-normal leading-6 text-black">
                             Home
-                        </Link>
-                        <Link href="#" className="text-base font-normal leading-6 text-black">
+                        </a>
+                        <a href="#" className="text-base font-normal leading-6 text-black">
                             About
-                        </Link>
-                        <Link href="#" className="text-base font-normal leading-6 text-black">
+                        </a>
+                        <a href="#" className="text-base font-normal leading-6 text-black">
                             Projects
-                        </Link>
-                        <Link href="#" className="text-base font-normal leading-6 text-black">
+                        </a>
+                        <a href="#" className="text-base font-normal leading-6 text-black">
                             Contact
-                        </Link>
+                        </a>
                       
                     </PopoverGroup>
                 </nav>
