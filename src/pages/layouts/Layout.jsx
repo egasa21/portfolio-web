@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Header } from '../../components/Header'
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, scrollToSection }) => {
 
     return (
         <>
-            <Header />
+            <Header scrollToSection={scrollToSection}/>
             <main>{children}</main>
         </>
     )
