@@ -1,5 +1,4 @@
 
-```markdown
 # My Portfolio
 
 Welcome to my portfolio! This website showcases my work as a software engineer and highlights my expertise in backend, frontend, and mobile development.
@@ -10,7 +9,6 @@ Welcome to my portfolio! This website showcases my work as a software engineer a
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -71,6 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - **Email**: esaputra168@gmail.com
-- **GitHub**: [yourusername](https://github.com/egasa21)
-- **LinkedIn**: [yourprofile](https://www.linkedin.com/in/ega-saputra-83736a179/)
-```
+- **GitHub**: [egasa21](https://github.com/egasa21)
+- **LinkedIn**: [Ega Saputra](https://www.linkedin.com/in/ega-saputra-83736a179/)
