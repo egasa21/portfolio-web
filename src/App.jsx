@@ -1,4 +1,5 @@
 import { About } from './pages/about/About'
+import { Contact } from './pages/contact/Contact'
 import { Hero } from './pages/hero/Hero'
 import { Layout } from './pages/layouts/Layout'
 import { Projects } from './pages/projects/Projects'
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <About/>
         <Projects/>
+        <Contact/>
       </>
     </Layout>
   )
