@@ -9,8 +9,8 @@ export const projectsData = [
             "React",
             "Tailwind CSS"
         ],
-        "link": "https://your-hotel-booking-project.com",
-        "github": "https://github.com/yourusername/hotel-booking-web"
+        "link": "",
+        "github": ""
     },
     {
         "title": "ASPALD",
@@ -21,8 +21,8 @@ export const projectsData = [
             "Express.js",
             "TensorFlow"
         ],
-        "link": "https://your-road-damage-app.com",
-        "github": "https://github.com/yourusername/road-damage-detection"
+        "link": "",
+        "github": "https://github.com/candjaya123/Capstone_Aspald/tree/main"
     },
     {
         "title": "Personal Portfolio",
@@ -31,8 +31,8 @@ export const projectsData = [
             "React",
             "Tailwind CSS"
         ],
-        "link": "https://yourportfolio.com",
-        "github": "https://github.com/yourusername/portfolio"
+        "link": "https://github.com/egasa21/portfolio-web/tree/master",
+        "github": "https://egasa21.github.io/portfolio-web/"
     },
     {
         "title": "User Satisfaction Analyzer",
@@ -40,9 +40,10 @@ export const projectsData = [
         "tech": [
             "Python",
             "PIECES Framework",
-            "Google Play Scraper"
+            "Google Play Scraper",
+            "Streamlit"
         ],
-        "link": "https://your-user-satisfaction-analyzer.com",
-        "github": "https://github.com/yourusername/user-satisfaction-analyzer"
+        // "link": "https://your-user-satisfaction-analyzer.com",
+        "github": "https://github.com/egasa21/apps-pieces-analysis"
     }
 ]

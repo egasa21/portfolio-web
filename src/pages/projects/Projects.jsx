@@ -39,24 +39,30 @@ export const Projects = () => {
                             ))}
                         </div>
 
-                        {/* Links */}
+                        {/* Links (Conditionally Rendered) */}
                         <div className="flex items-center space-x-4">
-                            <a
-                                href={project.link}
-                                className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-800 transition-colors"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaExternalLinkAlt className="mr-2" /> View Project
-                            </a>
-                            <a
-                                href={project.github}
-                                className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-800 transition-colors"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaGithub className="mr-2" /> GitHub Repo
-                            </a>
+                            {/* Conditionally render "View Project" link */}
+                            {project.link && (
+                                <a
+                                    href={project.link}
+                                    className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-800 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaExternalLinkAlt className="mr-2" /> View Project
+                                </a>
+                            )}
+                            {/* Conditionally render "GitHub Repo" link */}
+                            {project.github && (
+                                <a
+                                    href={project.github}
+                                    className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-800 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="mr-2" /> GitHub Repo
+                                </a>
+                            )}
                         </div>
                     </div>
                 ))}
