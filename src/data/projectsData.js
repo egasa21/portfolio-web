@@ -45,5 +45,26 @@ export const projectsData = [
         ],
         // "link": "https://your-user-satisfaction-analyzer.com",
         "github": "https://github.com/egasa21/apps-pieces-analysis"
+    },
+    {
+        "title": "FIPEX Apps",
+        "description": "FIPEX Apps is a web-based application for Final Project Exhibition (FIPEX) at my campus. It allows visitors to score the projects showcased at the exhibition and includes new features for face recognition. The app is an extension of previous development with enhanced functionality for better user engagement and evaluation.",
+        "tech": [
+            "Angular",
+            "Code Igniter 4",
+            "Open CV",
+            "Flask"
+        ],
+        "link": "http://fipexapp.ruang-ekspresi.id",
+    },
+    {
+        "title": "Parman Apps",
+        "description": "Parman Apps provides secure digital credentials for identity verification across platforms. Key features include encrypted credentials on the blockchain, seamless identity validation, contract signing, and integration with various services.",
+        "tech": [
+            "Flutter",
+            "Solidity",
+            "Express.js"
+        ],
+        "link": "https://www.youtube.com/watch?v=6cTJ5lmqG50",
     }
 ]

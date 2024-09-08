@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Hero = () => {
     return (
-        <div className="mx-auto max-w-2xl px-6 py-20 sm:py-32">
+        <div className="mx-auto max-w-2xl px-6 py-20 sm:py-32 lg:py-56">
             {/* Announcement or personal tagline */}
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-700 ring-1 ring-gray-300 hover:ring-gray-500">
