@@ -69,7 +69,7 @@ export const Contact = () => {
 
             {/* Contact Details */}
             <div className="mt-12 text-center text-gray-700">
-                <p className="text-lg">Or reach out via email: <a href="mailto:youremail@example.com" className="font-semibold hover:text-teal-600 transition-colors">egg@example.com</a></p>
+                <p className="text-lg">Or reach out via email: <a href="mailto:eggsadev@gmail.com" className="font-semibold hover:text-teal-600 transition-colors">eggsadev@gmail.com</a></p>
                 <p className="mt-4 text-lg">Find me on: 
                     <a href="https://github.com/egasa21" className="ml-4 font-semibold hover:text-teal-600 transition-colors">GitHub</a> | 
                     <a href="https://www.linkedin.com/in/ega-saputra-83736a179/" className="ml-4 font-semibold hover:text-teal-600 transition-colors">LinkedIn</a>
