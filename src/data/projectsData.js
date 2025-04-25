@@ -1,15 +1,15 @@
 export const projectsData = [
     {
-        "title": "Hotel Booking Web",
-        "description": "A comprehensive hotel booking web application with features such as room availability, booking management, and secure payment integration. Built using Python, FastAPI, and PostgreSQL.",
+        "title": "Rentalize",
+        "description": "Intelligent multipurpose rental management platform leveraging AI for streamlined operations. Features an AI-powered chatbot for natural language availability checks and prompt-based bookings across diverse rental assets (properties, equipment, vehicles, etc.). A centralized dashboard provides comprehensive management of listings, bookings, customers, and reporting. Built with Python, FastAPI, MongoDB, NextJs, and Langchain.",
         "tech": [
             "Python",
             "FastAPI",
-            "PostgreSQL",
-            "React",
-            "Tailwind CSS"
+            "MongoDB",
+            "NextJs",
+            "Langchain"
         ],
-        "link": "",
+        "link": "https://app.rentalize.id",
         "github": ""
     },
     {
