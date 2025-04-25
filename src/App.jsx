@@ -37,7 +37,7 @@ function App() {
   return (
     <Layout scrollToSection={scrollToSection}>
         <>
-            <div ref={heroRef}><Hero/></div>
+            <div ref={heroRef}><Home/></div>
             <div ref={aboutRef}><About/></div>
             <div ref={projectsRef}><Projects/></div>
             <div ref={contactRef}><Contact/></div>
