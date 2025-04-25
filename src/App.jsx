@@ -1,10 +1,12 @@
-import { About } from './pages/about/About'
+
 import { Contact } from './pages/contact/Contact'
 import { Hero } from './pages/hero/Hero'
 import { Layout } from './pages/layouts/Layout'
-import { Projects } from './pages/projects/Projects'
+
 import './App.css'
 import {useRef} from "react";
+import Projects from './pages/projects/Projects';
+import About from './pages/about/About';
 
 function App() {
 
